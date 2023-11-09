@@ -20,19 +20,28 @@ export default function Home() {
     }, []);
 
     return (
-        <div>
+        <div className='flex flex-col items-center lg:flex-row  '>
+           <div className=' text-black text-center content max-w-[550px] h-fit rounded-[12px] p-10'>
+      
             <div>
+            <p>Our wedding comes in</p>
+            <p className="flex gap-2 items-center justify-center">
+        
+                <span> {days} days </span>
+                <span> {hours} hours </span>
+                <span> {minutes} minutes </span>
+                <span> {seconds} seconds</span>
+            
+            </p>
+            <div className='flex justify-center'> <div id="heart"> </div></div>
+            <div className='mt-10'>
                 <p>message text here Nequed porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli </p>
             </div>
-            <div>
-            <p>Things comes in</p>
-            <p className="counter">
-                <span>{days}d </span>
-                <span>{hours}h </span>
-                <span>{minutes}min </span>
-                <span>{seconds}s</span>
-            </p>
         </div>
+           </div>
+           <div>
+            <img src='wimage.jpg' />
+           </div>
 
     </div>
     );

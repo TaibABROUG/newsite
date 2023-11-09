@@ -20,3 +20,45 @@ body {
   color: rgb(var(--foreground-rgb));
 
 }
+.shake {
+  width: 100px;
+  padding: 20px;
+  background-color: aliceblue;
+  animation: skew-x-shakeng 1s infinite;
+}
+@keyframes skew-x-shakeng{
+  70% { transform:   scale(0.8) ; }
+  80% { transform: scale(1) ;}
+  90% { transform:   scale(0.8) ; }
+  100% { transform: scale(1); }
+
+ }
+ #heart {
+  animation: skew-x-shakeng 1s infinite;
+  position: relative;
+  width: 130px;
+  height: 90px;
+  margin-top: 10px;
+}
+
+#heart::before, #heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 52px;
+  height: 80px;
+  border-radius: 50px 50px 0 0;
+  background: #fed6d7;
+}
+
+#heart::before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+#heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
