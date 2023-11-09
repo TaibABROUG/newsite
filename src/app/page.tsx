@@ -1,4 +1,5 @@
 "use client"
+import Head from 'next/head';
 import Image from 'next/image';
 import {useEffect, useState} from "react";
 const targetTime = new Date("2024-04-14").getTime();
@@ -21,6 +22,9 @@ export default function Home() {
 
     return (
         <div className='flex flex-col items-center lg:flex-row lg:justify-center lg:gap-3  '>
+               <Head>
+               <link rel="icon" type="image/png" href="./favicon.png" />
+    </Head>
            <div className=' text-black text-center content max-w-[550px] h-fit rounded-[12px] p-10'>
       
             <div>
