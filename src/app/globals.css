@@ -63,3 +63,7 @@ body {
   transform: rotate(45deg);
   transform-origin: 100% 100%;
 }
+.content{
+  color: #6d5050;
+  font-family: cursive;
+}

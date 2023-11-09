@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <div className='flex flex-col items-center lg:flex-row lg:justify-center lg:gap-3  '>
             
-           <div className=' text-black text-center content max-w-[550px] h-fit rounded-[12px] p-10'>
+           <div className='content text-center content max-w-[550px] h-fit rounded-[12px] p-10'>
       
             <div>
             <p className='text-xl mb-2'>Our wedding comes in</p>
@@ -36,7 +36,7 @@ export default function Home() {
             </p>
             <div className='flex justify-center'> <div id="heart"> </div></div>
             <div className='mt-10'>
-                <p>message text here Nequed porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli </p>
+                <p>From the moment we met, my world has been filled with light and love. Your smile is my daily sunshine, and your laughter, the sweetest melody. With you, every moment is a treasure, and every day a new adventure.<br/><span className='font-bold'>I love you more than words can express.</span> </p>
             </div>
         </div>
            </div>
