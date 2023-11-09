@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <div>
             <div>
-                <p>message text here Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli </p>
+                <p>message text here Nequed porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli </p>
             </div>
             <div>
             <p>Things comes in</p>
