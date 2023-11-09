@@ -25,13 +25,13 @@ export default function Home() {
            <div className=' text-black text-center content max-w-[550px] h-fit rounded-[12px] p-10'>
       
             <div>
-            <p>Our wedding comes in</p>
+            <p className='text-xl mb-2'>Our wedding comes in</p>
             <p className="flex gap-2 items-center justify-center">
         
-                <span> {days} days </span>
-                <span> {hours} hours </span>
-                <span> {minutes} minutes </span>
-                <span> {seconds} seconds</span>
+                <span><span className='text-xl font-bold'>{days}</span>  days </span>
+                <span><span className='text-xl font-bold'>{hours}</span>  hours </span>
+                <span><span className='text-xl font-bold'>{minutes}</span>  minutes </span>
+                <span> <span className='text-xl font-bold'>{seconds}</span>  seconds</span>
             
             </p>
             <div className='flex justify-center'> <div id="heart"> </div></div>

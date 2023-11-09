@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: cursive;
   color: rgb(var(--foreground-rgb));
 
 }
@@ -36,7 +37,7 @@ body {
  #heart {
   animation: skew-x-shakeng 1s infinite;
   position: relative;
-  width: 130px;
+  width: 100px;
   height: 90px;
   margin-top: 10px;
 }
