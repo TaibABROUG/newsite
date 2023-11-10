@@ -36,7 +36,8 @@ export default function Home() {
             </p>
             <div className='flex justify-center'> <div id="heart"> </div></div>
             <div className='mt-10'>
-                <p>From the moment we met, my world has been filled with light and love. Your smile is my daily sunshine, and your laughter, the sweetest melody. With you, every moment is a treasure, and every day a new adventure.<br/><span className='font-bold'>I love you more than words can express.</span> </p>
+                <p>From the moment we met, my world has been filled with light and love. Your smile is my daily sunshine, and your laughter, the sweetest melody. With you, every moment is a treasure, and every day a new adventure.<br/><span className='font-bold'>I love you more than words can express.</span> 
+                <br/><span className='font-bold'>I love you to the moon and beyond.</span></p>
             </div>
         </div>
            </div>
